@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #262626;
+  padding: 4vh 4vw;
+  color: white;
+  font-weight: bold;
+  box-shadow: 0px 0px 52px -5px rgba(0,0,0,0.63);
+}
+.logo {
+  font-family: Florencesans SC Cond;
+  font-size: 40px;
+  font-weight: normal;
+}
+li {
+  display: inline-block;
+}
+.btm {
+  border: 2px solid white;
+  border-radius: 5%;
+}
+.link, .nav-link {
+  display: inline-block;
+  padding: 20px 30px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+.nav-link {
+  padding: 5vh 1vw;
+}
