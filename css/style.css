@@ -13,7 +13,7 @@ body {
   padding: 4vh 4vw;
   color: white;
   font-weight: bold;
-  box-shadow: 0px 0px 52px -5px rgba(0,0,0,0.63);
+  box-shadow: 0px 0px 52px -5px rgba(0, 0, 0, 0.63);
 }
 .logo {
   font-family: Florencesans SC Cond;
@@ -23,11 +23,13 @@ body {
 li {
   display: inline-block;
 }
-.btm {
+.btn {
   border: 2px solid white;
   border-radius: 5%;
+  background-color: #262626;
 }
-.link, .nav-link {
+.link,
+.nav-link {
   display: inline-block;
   padding: 20px 30px;
   width: 100%;
